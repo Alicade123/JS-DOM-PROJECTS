@@ -1,0 +1,3 @@
+function attachByEvents() {
+    const 
+}
