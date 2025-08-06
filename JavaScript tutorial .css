@@ -1,0 +1,28 @@
+button {
+  background-color: rgb(237, 128, 128);
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 15px;
+  color: rgb(13, 12, 12);
+}
+.warning {
+  color: red;
+  font-size: 2em;
+}
+
+#textareaOfficial {
+  height: 150px;
+  width: 500px;
+  border: dashed;
+  border-radius: 10px;
+  border-color: rgb(162, 115, 57);
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
