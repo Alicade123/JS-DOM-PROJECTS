@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card Editor</title>
+  <link rel="stylesheet" href="Attributes.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="profile-card">
+      <img id="avatar" src="" alt="User Avatar">
+      <h2 id="username">ABITURIJE</h2>
+      <p id="status" data-status="offline">Status: Offline</p>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="avatar-url" placeholder="Enter new avatar URL">
+      <button onclick="changeAvatar()">Change Avatar</button>
+
+      <button onclick="toggleStatus()">Toggle Status</button>
+
+      <button onclick="addTooltip()">Add Tooltip</button>
+      <button id="removeToolTip">Remove Tooltip</button>
+      <button onclick="checkTooltip()">Check Tooltip</button>
+      <button onclick="nowTest()" name="test">Now Test</button>
+    </div>
+  </div>
+
+
+
+  <script src="Attribute.js"></script>
+</body>
+
+</html>

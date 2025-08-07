@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header,
+section {
+  margin-bottom: 40px;
+}
+
+.scroll-box {
+  width: 100%;
+  height: 100px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#itemList li {
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+button {
+  margin: 10px 0;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Dashboard</title>
+    <link rel="stylesheet" href="Events.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Event Dashboard</h1>
+        <p id="status">Page status will appear here...</p>
+    </header>
+
+    <nav>
+        <a href="#section1">Go to Section 1</a>
+        <a href="#section2">Go to Section 2</a>
+    </nav>
+
+    <section id="section1">
+        <h2>Mouse & Keyboard Events</h2>
+        <button id="clickBtn">Click Me</button>
+        <input type="text" id="keyInput" placeholder="Type something..." />
+    </section>
+
+    <section id="section2">
+        <h2>Scroll & Focus Events</h2>
+        <div class="scroll-box" id="scrollBox">
+            <p>Scroll inside this box to trigger scroll event.</p>
+        </div>
+        <input type="text" id="focusInput" placeholder="Focus me!" />
+    </section>
+
+    <section>
+        <h2>Event Delegation</h2>
+        <ul id="itemList">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Simulated & Custom Events</h2>
+        <button id="simulateBtn">Simulate Click</button>
+        <button id="customBtn">Trigger Custom Event</button>
+        <p id="customOutput"></p>
+    </section>
+
+    <script src="Events.js"></script>
+</body>
+
+</html>
