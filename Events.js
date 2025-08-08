@@ -43,3 +43,8 @@ document.getElementById("itemList").addEventListener("click", function (evt) {
     console.log(evt.target.textContent);
   }
 });
+
+//9.resize
+window.addEventListener("resize", () => {
+  console.log("The browser is resized!");
+});
