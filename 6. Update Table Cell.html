@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Change the content of a cell</title>
+</head>
+
+<body>
+    <table id="myTable" border="1">
+        <tr>
+            <td>Row1 cell1</td>
+            <td>Row1 cell2</td>
+        </tr>
+        <tr>
+            <td>Row2 cell1</td>
+            <td>Row2 cell2</td>
+        </tr>
+        <tr>
+            <td>Row3 cell1</td>
+            <td>Row3 cell2</td>
+        </tr>
+    </table>
+    <form>
+        <input type="button" onclick="changeContent()" value="Change content">
+    </form>
+    <script>
+        function changeContent() {
+            // Get the table by its ID
+            const table = document.getElementById("myTable");
+
+            // Access the second row (index 1) and second cell (index 1)
+            const targetCell = table.rows[0].cells[0];
+            // console.log(targetCell.parentElement);
+
+            // Change the content of that cell
+            targetCell.innerHTML = `Updated by Alicade `;
+        }
+    </script>
+</body>
+
+</html>

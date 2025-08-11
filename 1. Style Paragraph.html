@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+</head>
+
+<body>
+    <p id='text'>JavaScript Exercises - w3resource</p>
+    <div>
+        <button id="jsstyle" onclick="js_style()">Style</button>
+    </div>
+    <script>
+        function js_style() {
+            const text = document.getElementById("text");
+            text.style.cssText = "font-family:Comic Sans MS; font-size: 24px; color:green"
+        }
+        // js_style()
+    </script>
+</body>
+
+</html>
