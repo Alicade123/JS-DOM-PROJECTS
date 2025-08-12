@@ -1,0 +1,10 @@
+.highlighted {
+  color: purple;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.capital {
+  text-decoration: underline;
+  text-decoration-color: rgb(6, 0, 0);
+}
