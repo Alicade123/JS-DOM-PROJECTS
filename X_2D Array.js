@@ -33,3 +33,4 @@ person4 = person;
 person4.detail.age = 400;
 console.log(person4);
 console.log(person);
+
