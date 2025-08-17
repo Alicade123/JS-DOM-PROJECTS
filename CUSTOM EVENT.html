@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create custom Event</title>
+</head>
+
+<body>
+    <button id="btn">Custom Event</button>
+    <script>
+        const myEvent = new CustomEvent("greet", {
+            detail: {
+                name: "Alicade",
+
+            },
+            bubbles: true,
+            cancelable: true
+
+        })
+
+        const btn = document.getElementById('btn');
+
+        btn.addEventListener("greet", function (event) {
+            if (!event.cancelable) event.preventDefault()
+            else console.log("Hello " + event.detail.name);
+
+        })
+        btn.dispatchEvent(myEvent)
+    </script>
+</body>
+
+
+</html>
